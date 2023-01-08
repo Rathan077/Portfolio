@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+.home {
+    background-image: url(../images/home-bg.jpg);
+    position: static;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin: 14% 10% 10% 10%;
+    transition: all 2s ease-in-out;
+    max-width: 100vmin;
+    max-height: 70vmin;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    box-shadow: 0 0px 30px 0 rgb(255, 255, 255);
+}
+
+img:hover {
+    filter: saturate(5px);
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+
+
+.content {
+    color: aliceblue;
+    padding: 14% 10% 10% 35%;
+
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-family: 'Damion', cursive;
+}
+
+.parah {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+.cv,
+.contacts {
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    padding: 10px 15px;
+    margin: 20px 20px;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    border-radius: 50px;
+    border: none;
+    background-size: 400% 200%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.cv:hover,
+.contacts:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
