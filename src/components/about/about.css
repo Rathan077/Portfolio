@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+.body {
+    background-image: url(../images/about-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+
+}
+
+.content-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15%;
+}
+
+
+.about-me {
+    color: aliceblue;
+    font-family: 'Acme', sans-serif;
+    padding: 10%;
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+.parah-about {
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    margin-top: 20%;
+    text-align: justify;
+}

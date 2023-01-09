@@ -9,15 +9,20 @@
     margin: 0;
 }
 
+.content {
+    color: aliceblue;
+    padding: 14% 0% 10% 25%;
+    margin: 0 15%;
 
+}
 
-img {
+.proPic {
     width: 250px;
     height: 250px;
     display: flex;
     position: absolute;
     justify-content: center;
-    margin: 14% 10% 10% 10%;
+    margin: 14% 10% 10% 15%;
     transition: all 2s ease-in-out;
     max-width: 100vmin;
     max-height: 70vmin;
@@ -26,7 +31,7 @@ img {
     box-shadow: 0 0px 30px 0 rgb(255, 255, 255);
 }
 
-img:hover {
+.proPic:hover {
     filter: saturate(5px);
     transform: rotate(360deg);
     transition: transform 2s ease-in-out;
@@ -36,11 +41,7 @@ img:hover {
 
 
 
-.content {
-    color: aliceblue;
-    padding: 14% 10% 10% 35%;
 
-}
 
 .name {
     font-family: 'Dancing Script', cursive;

@@ -2,10 +2,10 @@ import React from "react";
 import "../home/home.css";
 import ProPic from "../images/propic.png";
 
-function home() {
+function Home() {
   return (
-    <div className="home">
-      <img src={ProPic} alt="Profile Picture-png" />
+    <div className="home" id="home">
+      <img className="proPic" src={ProPic} alt="Profile Picture-png" />
       <div className="content">
         <div className="name">
           <h3>Hi,I'm</h3>
@@ -27,4 +27,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;
