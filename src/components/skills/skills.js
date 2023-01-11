@@ -8,7 +8,7 @@ import ReactImg from "../images/react-img.png";
 import NodejsImg from "../images/node-img.png";
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div class="container-skills">
         <div class="box">
           <div class="imgBx">

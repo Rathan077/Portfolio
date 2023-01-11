@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
 .navbar {
-    background-color: rgb(24, 24, 24);
+    background-color: transparent;
     padding: 0;
     margin: 0;
     position: fixed;
@@ -10,6 +10,12 @@
     width: 100%;
 
 
+}
+
+.active {
+
+    text-decoration: underline yellow 2px;
+    font-weight: bold;
 }
 
 .nav-list {

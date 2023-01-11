@@ -3,7 +3,7 @@
 
 .body {
     background-image: url(../images/about-bg.png);
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
     background-size: auto;
     margin: 0;
@@ -22,7 +22,8 @@
     color: aliceblue;
     font-family: 'Acme', sans-serif;
     padding: 10%;
-    margin-top: 20%;
+
+
     text-align: center;
 
 }
@@ -31,6 +32,7 @@
     color: white;
     font-family: 'PT Serif', serif;
     font-size: 20px;
-    margin-top: 20%;
+    margin-top: 30%;
+    margin-bottom: 30%;
     text-align: justify;
 }
