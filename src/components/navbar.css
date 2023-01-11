@@ -77,3 +77,26 @@
     font-family: 'Montserrat Subrayada', sans-serif;
 
 }
+
+
+@media only screen and (min-width: 325px) and (max-width: 450px)
+
+/* For smartphones [325px -> 425px] */
+    {
+    .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    .nav-link {
+        margin: 2px;
+        padding: 6px;
+    }
+
+    .header {
+        margin-left: 110px;
+    }
+
+
+}

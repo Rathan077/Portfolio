@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar">
         <Link
           className="header"
-          activeClass="active"
+          activeClass="actives"
           to="home"
           spy={true}
           smooth={true}
@@ -59,7 +59,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              className="nav-link"
+              className="nav-link disabled"
               activeClass="active"
               to="Projects"
               spy={true}

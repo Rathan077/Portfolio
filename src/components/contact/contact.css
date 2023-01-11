@@ -60,7 +60,8 @@
 .contact-container .form .contact-h4 {
     color: #fff;
     font-weight: 300;
-    width: 600px;
+    min-width: 300px;
+    max-width: 600px;
     margin-top: 20px;
 }
 
@@ -73,7 +74,7 @@
     font-size: 15px;
     padding: 10px;
     outline: none;
-    min-width: 600px;
+    min-width: 300px;
     max-width: 600px;
     min-height: 80px;
     max-height: 80px;
@@ -115,5 +116,25 @@
     align-items: center;
     justify-content: center;
     margin: 0;
+
+}
+
+
+@media only screen and (min-width: 325px) and (max-width: 450px) {
+
+    .contact-container .form {
+        min-width: 325px;
+        max-width: 300px;
+    }
+
+    .contact-container .form .textarea {
+
+        width: 400px;
+    }
+
+    .contact-container .form .contact-h1 {
+        width: 300px;
+    }
+
 
 }

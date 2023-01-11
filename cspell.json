@@ -1,12 +1,15 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [
-        "Kumar",
-        "Rathana"
-    ],
-    "ignoreWords": [],
-    "import": []
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-dictionary",
+      "path": "./.cspell/custom-dictionary.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["custom-dictionary", "-webkit-background-clip"],
+  "words": ["Kumar", "parah", "Rathana"],
+  "ignoreWords": [],
+  "import": []
 }
