@@ -87,15 +87,29 @@
         position: fixed;
         top: 0;
         z-index: 1;
+        margin-top: -30px;
+
+
+
     }
 
     .nav-link {
-        margin: 2px;
-        padding: 6px;
+        display: flex;
+        padding: 4px;
     }
 
     .header {
         margin-left: 110px;
+        visibility: hidden;
+
+    }
+
+    .nav-link:hover {
+
+        padding: 10px 10px;
+        border-radius: 10%;
+
+
     }
 
 

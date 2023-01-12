@@ -55,6 +55,7 @@
     align-items: center;
     justify-content: center;
     margin: 10px;
+    background: none;
 }
 
 .contact-container .form .contact-h4 {
@@ -71,13 +72,13 @@
     border-bottom: 2px solid #fff;
     color: #fff;
     font-weight: 200;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 20px;
     outline: none;
     min-width: 300px;
     max-width: 600px;
     min-height: 80px;
-    max-height: 80px;
+    max-height: 100px;
 }
 
 .textarea::-webkit-scrollbar {
@@ -85,7 +86,7 @@
 }
 
 .textarea::-webkit-scrollbar-thumb {
-    background-color: rgba(194, 194, 194, 0.713);
+    background-color: rgba(255, 255, 255, 0.713);
 }
 
 .contact-container .form #button {
@@ -128,8 +129,8 @@
     }
 
     .contact-container .form .textarea {
-
-        width: 400px;
+        min-width: 290px;
+        max-width: 300px;
     }
 
     .contact-container .form .contact-h1 {
