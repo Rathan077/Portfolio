@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "../contact/contact.css";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [validated, setValidated] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,12 +20,16 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           alert("Message sent ✅");
+          setValidated(false);
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
+          alert("Message not send successfully");
         }
       );
   };
+
   return (
     <div className="first-container">
       <div className="contact-container" id="contact">
@@ -42,14 +47,21 @@ const Contact = () => {
             className="input"
             id="email"
             type="email"
-            required="required"
+            required="true"
             name="user_email"
             placeholder="Email I'd"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
           />
+
           <input
             className="input"
             id="mobile"
             name="mobile"
+            onKeyPress={(e) => {
+              if (!/[0-9]/.test(e.key)) {
+                e.preventDefault();
+              }
+            }}
             type="text"
             placeholder="Mobile"
           ></input>
@@ -60,7 +72,6 @@ const Contact = () => {
             required="required"
             placeholder="Enter your message here...."
           />
-
           <input className="input" type="submit" value="send" id="button" />
         </form>
       </div>

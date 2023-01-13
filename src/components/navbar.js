@@ -57,19 +57,7 @@ function Navbar() {
               <span className="nav-name">Skills</span>
             </Link>
           </li>
-          <li>
-            <Link
-              className="nav-link disabled"
-              activeClass="active"
-              to="Projects"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <span className="nav-name">Projects</span>
-            </Link>
-          </li>
+
           <li>
             <Link
               className="nav-link"
