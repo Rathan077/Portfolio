@@ -6,6 +6,15 @@ const Contact = () => {
   const [validated, setValidated] = useState(false);
   const form = useRef();
 
+  const [textAreaCount, setTextAreaCount] = useState(0);
+
+  const recalculate = (e) => {
+    e.preventDefault();
+    console.log("event value:", e);
+    setTextAreaCount(e.target.value.length);
+    e.target.reset();
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -57,6 +66,8 @@ const Contact = () => {
             className="input"
             id="mobile"
             name="mobile"
+            maxLength={12}
+            minLength={10}
             onKeyPress={(e) => {
               if (!/[0-9]/.test(e.key)) {
                 e.preventDefault();
@@ -65,13 +76,17 @@ const Contact = () => {
             type="text"
             placeholder="Mobile"
           ></input>
+
           <textarea
             className="textarea"
+            maxLength={500}
             name="message"
             type="submit"
             required="required"
             placeholder="Enter your message here...."
+            onChange={recalculate}
           />
+          <p className="count">{`Count: ${textAreaCount} /500 `}</p>
           <input className="input" type="submit" value="send" id="button" />
         </form>
       </div>

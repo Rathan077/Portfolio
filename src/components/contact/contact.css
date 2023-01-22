@@ -21,6 +21,7 @@
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
+    position: relative;
 }
 
 .contact-container .form .contact-h1 {
@@ -55,6 +56,7 @@
     align-items: center;
     justify-content: center;
     margin: 10px;
+
     background: none;
 }
 
@@ -66,7 +68,21 @@
     margin-top: 20px;
 }
 
+.contact-container .form .count {
+    color: #fff;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    position: absolute;
+    top: 280px;
+    right: 30px;
+
+
+
+}
+
 .contact-container .form .textarea {
+
     background: none;
     border: none;
     border-bottom: 2px solid #fff;
@@ -80,6 +96,7 @@
     min-height: 80px;
     max-height: 100px;
 }
+
 
 .textarea::-webkit-scrollbar {
     width: 1em;
@@ -102,6 +119,7 @@
     margin-bottom: 30px;
     transition: 0.3s;
     justify-content: center;
+
 
 }
 
@@ -137,6 +155,11 @@
 
     .contact-container .form .contact-h1 {
         width: 300px;
+    }
+
+    .contact-container .form .count {
+        top: 350px;
+        right: 12px;
     }
 
 
