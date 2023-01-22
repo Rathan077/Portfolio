@@ -3,7 +3,7 @@
 
 .body {
     background-image: url(../images/about-bg.png);
-    height: auto;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: auto;
     margin: 0;
@@ -35,4 +35,18 @@
     margin-top: 30%;
     margin-bottom: 30%;
     text-align: justify;
+}
+
+@media only screen and (min-width: 325px) and (max-width: 450px) {
+
+    .body {
+        background: url(../images/about-bg.png) no-repeat center center/cover;
+    }
+
+    .content-about {
+        display: inline-block;
+        padding-top: 20%;
+    }
+
+
 }

@@ -11,7 +11,7 @@ function Navbar() {
           to="home"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-100}
           duration={500}
         >
           RATHAN
@@ -24,7 +24,7 @@ function Navbar() {
               to="home"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
             >
               <span className="nav-name">Home</span>
@@ -37,7 +37,7 @@ function Navbar() {
               to="about"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
             >
               <span className="nav-name">About</span>
@@ -51,7 +51,7 @@ function Navbar() {
               to="skills"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
             >
               <span className="nav-name">Skills</span>
@@ -65,7 +65,7 @@ function Navbar() {
               to="contact"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={150}
               duration={500}
             >
               <span className="nav-name">Contact</span>

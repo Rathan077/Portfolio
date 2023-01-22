@@ -8,6 +8,7 @@
     z-index: 2;
     top: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.897);
 
 
 }
@@ -87,7 +88,9 @@
         position: fixed;
         top: 0;
         z-index: 1;
-        margin-top: -30px;
+        margin-top: -14%;
+        border-radius: 20px;
+
 
 
 
@@ -95,7 +98,7 @@
 
     .nav-link {
         display: flex;
-        padding: 15px;
+        padding: 0 15px 0 15px;
     }
 
     .header {
@@ -106,8 +109,8 @@
 
     .nav-link:hover {
 
-        padding: 10px 10px;
-        border-radius: 10%;
+        padding: 7px 15px 10px 15px;
+        border-radius: 3px 20px;
 
 
     }
