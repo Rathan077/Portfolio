@@ -9,10 +9,8 @@ const Contact = () => {
   const [textAreaCount, setTextAreaCount] = useState(0);
 
   const recalculate = (e) => {
-    e.preventDefault();
     console.log("event value:", e);
     setTextAreaCount(e.target.value.length);
-    e.target.reset();
   };
 
   const sendEmail = (e) => {
@@ -31,6 +29,7 @@ const Contact = () => {
           alert("Message sent ✅");
           setValidated(false);
           e.target.reset();
+          setTextAreaCount(0);
         },
         (error) => {
           console.log(error.text);
