@@ -13,8 +13,7 @@
     flex-wrap: wrap;
     transform-style: preserve-3d;
     perspective: 500px;
-    margin: auto;
-    margin: 10% 15%;
+    margin: 0 15% 5% 15%;
 
 
 }

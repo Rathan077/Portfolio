@@ -8,8 +8,16 @@
       "addWords": true
     }
   ],
-  "dictionaries": ["custom-dictionary", "-webkit-background-clip"],
-  "words": ["Kumar", "parah", "Rathana"],
-  "ignoreWords": [],
+  "dictionaries": [
+    "custom-dictionary",
+    "-webkit-background-clip"
+    "propic"
+  ],
+  "words": [
+    "Kumar",
+    "parah",
+    "Rathana"
+  ],
+  
   "import": []
 }

@@ -22,9 +22,8 @@
     color: aliceblue;
     font-family: 'Acme', sans-serif;
     padding: 10%;
-
-
     text-align: center;
+    margin-top: -85px;
 
 }
 
@@ -32,7 +31,7 @@
     color: white;
     font-family: 'PT Serif', serif;
     font-size: 20px;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-bottom: 30%;
     text-align: justify;
 }

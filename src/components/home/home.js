@@ -21,7 +21,14 @@ function Home() {
         <a href="https://drive.google.com/file/d/1746OpgCRdzIZWXnLAJyFcF97do0KOfhO/view?usp=share_link">
           <button className="cv">Download CV</button>
         </a>
-        <Link to="contact">
+        <Link
+          to="contact"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           <button className="contacts">Contact Me</button>
         </Link>
       </div>
