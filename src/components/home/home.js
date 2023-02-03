@@ -18,7 +18,7 @@ function Home() {
           Responsive web design adds more layers of complexity to design and
           develop websites.
         </p>
-        <a href="https://drive.google.com/file/d/1746OpgCRdzIZWXnLAJyFcF97do0KOfhO/view?usp=share_link">
+        <a href="https://drive.google.com/file/d/1l6mgKLZuJT2RbiyFL_g2sfjU8MaInApw/view?usp=share_link">
           <button className="cv">Download CV</button>
         </a>
         <Link
